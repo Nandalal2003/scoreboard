@@ -1,0 +1,83 @@
+@font-face{
+src:url("digital-7.ttf");
+font-family:digital;
+
+}
+
+
+
+body{
+background:#0b1247;
+color:white;
+text-align:center;
+
+}
+.titles{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	font-weight:bold;
+	font-family: "Archivo Black", sans-serif;
+	font-size:40px;
+	margin-bottom:45px;
+	
+}
+
+#home{
+	margin-right:190px;
+
+}
+.displays{
+	display:flex;
+	justify-content:center;
+
+}
+
+
+#first-span,#second-span{
+	padding:35px 100px 80px 100px;
+	background:black;
+	color:#f23a59;
+	font-family:digital;
+	font-size:200px;
+
+	
+
+}
+
+#first-span{
+	margin-right:200px;
+}
+
+.buttons1{
+
+	margin-right:210px;
+	margin-left:20px;
+
+
+}
+
+#one,#two,#three,#four,#five,#six {
+	font-family:digital;
+	background:#0b1247;
+	color:white;
+	border:1px solid white;
+	border-radius:10px;
+	font-size:40px;
+	margin-right:10px;
+	padding:25px;
+
+}
+
+
+
+.total{
+	margin-top:80px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+
+}
+
+
+
